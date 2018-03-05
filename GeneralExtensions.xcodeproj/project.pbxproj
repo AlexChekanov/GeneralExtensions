@@ -9,7 +9,21 @@
 /* Begin PBXBuildFile section */
 		3B87BA52204DF24300812BAE /* GeneralExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B87BA48204DF24300812BAE /* GeneralExtensions.framework */; };
 		3B87BA57204DF24300812BAE /* GeneralExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA56204DF24300812BAE /* GeneralExtensionsTests.swift */; };
-		3B87BA59204DF24300812BAE /* GeneralExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B87BA4B204DF24300812BAE /* GeneralExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B87BA9D204DF31B00812BAE /* String+range .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA77204DF31600812BAE /* String+range .swift */; };
+		3B87BA9E204DF31B00812BAE /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA78204DF31600812BAE /* UserDefaults.swift */; };
+		3B87BAA0204DF31B00812BAE /* String+isNilOrEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA7A204DF31600812BAE /* String+isNilOrEmpty.swift */; };
+		3B87BAA2204DF31B00812BAE /* CIImage+multiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA7C204DF31700812BAE /* CIImage+multiply.swift */; };
+		3B87BAAA204DF31B00812BAE /* CGFloat+rightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA84204DF31800812BAE /* CGFloat+rightToLeft.swift */; };
+		3B87BAAB204DF31B00812BAE /* Data+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA85204DF31800812BAE /* Data+Types.swift */; };
+		3B87BAAC204DF31B00812BAE /* Notification+names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA86204DF31800812BAE /* Notification+names.swift */; };
+		3B87BAB0204DF31B00812BAE /* Sequence+callAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA8B204DF31900812BAE /* Sequence+callAll.swift */; };
+		3B87BAB4204DF31B00812BAE /* Date+formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA8F204DF31900812BAE /* Date+formatting.swift */; };
+		3B87BAB5204DF31B00812BAE /* String+localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA90204DF31A00812BAE /* String+localized.swift */; };
+		3B87BAB7204DF31B00812BAE /* CALayer+CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA92204DF31A00812BAE /* CALayer+CIImage.swift */; };
+		3B87BAB8204DF31B00812BAE /* Encodable+dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA93204DF31A00812BAE /* Encodable+dictionary.swift */; };
+		3B87BAB9204DF31B00812BAE /* SKProduct+Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA94204DF31A00812BAE /* SKProduct+Price.swift */; };
+		3B87BABA204DF31B00812BAE /* String+maxElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA95204DF31A00812BAE /* String+maxElement.swift */; };
+		3B87BABB204DF31B00812BAE /* String+wordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA96204DF31A00812BAE /* String+wordList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +38,25 @@
 
 /* Begin PBXFileReference section */
 		3B87BA48204DF24300812BAE /* GeneralExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeneralExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B87BA4B204DF24300812BAE /* GeneralExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralExtensions.h; sourceTree = "<group>"; };
 		3B87BA4C204DF24300812BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B87BA51204DF24300812BAE /* GeneralExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneralExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B87BA56204DF24300812BAE /* GeneralExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralExtensionsTests.swift; sourceTree = "<group>"; };
 		3B87BA58204DF24300812BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B87BA77204DF31600812BAE /* String+range .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+range .swift"; sourceTree = "<group>"; };
+		3B87BA78204DF31600812BAE /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		3B87BA7A204DF31600812BAE /* String+isNilOrEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+isNilOrEmpty.swift"; sourceTree = "<group>"; };
+		3B87BA7C204DF31700812BAE /* CIImage+multiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CIImage+multiply.swift"; sourceTree = "<group>"; };
+		3B87BA84204DF31800812BAE /* CGFloat+rightToLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+rightToLeft.swift"; sourceTree = "<group>"; };
+		3B87BA85204DF31800812BAE /* Data+Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Types.swift"; sourceTree = "<group>"; };
+		3B87BA86204DF31800812BAE /* Notification+names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+names.swift"; sourceTree = "<group>"; };
+		3B87BA8B204DF31900812BAE /* Sequence+callAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+callAll.swift"; sourceTree = "<group>"; };
+		3B87BA8F204DF31900812BAE /* Date+formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+formatting.swift"; sourceTree = "<group>"; };
+		3B87BA90204DF31A00812BAE /* String+localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+localized.swift"; sourceTree = "<group>"; };
+		3B87BA92204DF31A00812BAE /* CALayer+CIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+CIImage.swift"; sourceTree = "<group>"; };
+		3B87BA93204DF31A00812BAE /* Encodable+dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+dictionary.swift"; sourceTree = "<group>"; };
+		3B87BA94204DF31A00812BAE /* SKProduct+Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKProduct+Price.swift"; sourceTree = "<group>"; };
+		3B87BA95204DF31A00812BAE /* String+maxElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+maxElement.swift"; sourceTree = "<group>"; };
+		3B87BA96204DF31A00812BAE /* String+wordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+wordList.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +99,17 @@
 		3B87BA4A204DF24300812BAE /* GeneralExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				3B87BA4B204DF24300812BAE /* GeneralExtensions.h */,
+				3B87BA85204DF31800812BAE /* Data+Types.swift */,
+				3B87BA84204DF31800812BAE /* CGFloat+rightToLeft.swift */,
+				3B87BA8F204DF31900812BAE /* Date+formatting.swift */,
+				3B87BA93204DF31A00812BAE /* Encodable+dictionary.swift */,
+				3B87BA92204DF31A00812BAE /* CALayer+CIImage.swift */,
+				3B87BA7C204DF31700812BAE /* CIImage+multiply.swift */,
+				3B87BA86204DF31800812BAE /* Notification+names.swift */,
+				3B87BA8B204DF31900812BAE /* Sequence+callAll.swift */,
+				3B87BA94204DF31A00812BAE /* SKProduct+Price.swift */,
+				3B87BB4A204DF92400812BAE /* String */,
+				3B87BA78204DF31600812BAE /* UserDefaults.swift */,
 				3B87BA4C204DF24300812BAE /* Info.plist */,
 			);
 			path = GeneralExtensions;
@@ -86,6 +124,18 @@
 			path = GeneralExtensionsTests;
 			sourceTree = "<group>";
 		};
+		3B87BB4A204DF92400812BAE /* String */ = {
+			isa = PBXGroup;
+			children = (
+				3B87BA7A204DF31600812BAE /* String+isNilOrEmpty.swift */,
+				3B87BA90204DF31A00812BAE /* String+localized.swift */,
+				3B87BA95204DF31A00812BAE /* String+maxElement.swift */,
+				3B87BA77204DF31600812BAE /* String+range .swift */,
+				3B87BA96204DF31A00812BAE /* String+wordList.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +143,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B87BA59204DF24300812BAE /* GeneralExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +245,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B87BABA204DF31B00812BAE /* String+maxElement.swift in Sources */,
+				3B87BAAA204DF31B00812BAE /* CGFloat+rightToLeft.swift in Sources */,
+				3B87BAB9204DF31B00812BAE /* SKProduct+Price.swift in Sources */,
+				3B87BAA2204DF31B00812BAE /* CIImage+multiply.swift in Sources */,
+				3B87BAAB204DF31B00812BAE /* Data+Types.swift in Sources */,
+				3B87BAB7204DF31B00812BAE /* CALayer+CIImage.swift in Sources */,
+				3B87BABB204DF31B00812BAE /* String+wordList.swift in Sources */,
+				3B87BAB5204DF31B00812BAE /* String+localized.swift in Sources */,
+				3B87BAB0204DF31B00812BAE /* Sequence+callAll.swift in Sources */,
+				3B87BAAC204DF31B00812BAE /* Notification+names.swift in Sources */,
+				3B87BA9D204DF31B00812BAE /* String+range .swift in Sources */,
+				3B87BAA0204DF31B00812BAE /* String+isNilOrEmpty.swift in Sources */,
+				3B87BAB8204DF31B00812BAE /* Encodable+dictionary.swift in Sources */,
+				3B87BAB4204DF31B00812BAE /* Date+formatting.swift in Sources */,
+				3B87BA9E204DF31B00812BAE /* UserDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +440,7 @@
 		3B87BA60204DF24300812BAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JH6R8SSABL;
 				INFOPLIST_FILE = GeneralExtensionsTests/Info.plist;
@@ -390,6 +455,7 @@
 		3B87BA61204DF24300812BAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JH6R8SSABL;
 				INFOPLIST_FILE = GeneralExtensionsTests/Info.plist;
