@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B7268D3204F1F1A004515F2 /* LocalisedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7268CF204F1F1A004515F2 /* LocalisedString.swift */; };
+		3B7268D4204F1F1A004515F2 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7268D0204F1F1A004515F2 /* Box.swift */; };
+		3B7268D5204F1F1A004515F2 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7268D1204F1F1A004515F2 /* Aliases.swift */; };
+		3B7268D6204F1F1A004515F2 /* CompositionPrecedence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7268D2204F1F1A004515F2 /* CompositionPrecedence.swift */; };
 		3B87BA52204DF24300812BAE /* GeneralExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B87BA48204DF24300812BAE /* GeneralExtensions.framework */; };
 		3B87BA57204DF24300812BAE /* GeneralExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA56204DF24300812BAE /* GeneralExtensionsTests.swift */; };
 		3B87BA9D204DF31B00812BAE /* String+range .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA77204DF31600812BAE /* String+range .swift */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B7268CF204F1F1A004515F2 /* LocalisedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalisedString.swift; sourceTree = "<group>"; };
+		3B7268D0204F1F1A004515F2 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		3B7268D1204F1F1A004515F2 /* Aliases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
+		3B7268D2204F1F1A004515F2 /* CompositionPrecedence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositionPrecedence.swift; sourceTree = "<group>"; };
 		3B87BA48204DF24300812BAE /* GeneralExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeneralExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B87BA4C204DF24300812BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B87BA51204DF24300812BAE /* GeneralExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneralExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +107,10 @@
 		3B87BA4A204DF24300812BAE /* GeneralExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				3B7268D1204F1F1A004515F2 /* Aliases.swift */,
+				3B7268CF204F1F1A004515F2 /* LocalisedString.swift */,
+				3B7268D0204F1F1A004515F2 /* Box.swift */,
+				3B7268D2204F1F1A004515F2 /* CompositionPrecedence.swift */,
 				3B87BA85204DF31800812BAE /* Data+Types.swift */,
 				3B87BA84204DF31800812BAE /* CGFloat+rightToLeft.swift */,
 				3B87BA8F204DF31900812BAE /* Date+formatting.swift */,
@@ -249,14 +261,18 @@
 				3B87BAAA204DF31B00812BAE /* CGFloat+rightToLeft.swift in Sources */,
 				3B87BAB9204DF31B00812BAE /* SKProduct+Price.swift in Sources */,
 				3B87BAA2204DF31B00812BAE /* CIImage+multiply.swift in Sources */,
+				3B7268D6204F1F1A004515F2 /* CompositionPrecedence.swift in Sources */,
 				3B87BAAB204DF31B00812BAE /* Data+Types.swift in Sources */,
 				3B87BAB7204DF31B00812BAE /* CALayer+CIImage.swift in Sources */,
 				3B87BABB204DF31B00812BAE /* String+wordList.swift in Sources */,
+				3B7268D3204F1F1A004515F2 /* LocalisedString.swift in Sources */,
 				3B87BAB5204DF31B00812BAE /* String+localized.swift in Sources */,
 				3B87BAB0204DF31B00812BAE /* Sequence+callAll.swift in Sources */,
 				3B87BAAC204DF31B00812BAE /* Notification+names.swift in Sources */,
 				3B87BA9D204DF31B00812BAE /* String+range .swift in Sources */,
 				3B87BAA0204DF31B00812BAE /* String+isNilOrEmpty.swift in Sources */,
+				3B7268D4204F1F1A004515F2 /* Box.swift in Sources */,
+				3B7268D5204F1F1A004515F2 /* Aliases.swift in Sources */,
 				3B87BAB8204DF31B00812BAE /* Encodable+dictionary.swift in Sources */,
 				3B87BAB4204DF31B00812BAE /* Date+formatting.swift in Sources */,
 				3B87BA9E204DF31B00812BAE /* UserDefaults.swift in Sources */,
