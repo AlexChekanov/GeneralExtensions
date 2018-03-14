@@ -10,6 +10,11 @@
 		3B07A8D82059DCDF00502DD5 /* Strng+NLP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07A8D72059DCDF00502DD5 /* Strng+NLP.swift */; };
 		3B07A8DA2059DD0A00502DD5 /* String+slugSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07A8D92059DD0A00502DD5 /* String+slugSafe.swift */; };
 		3B07A8DC2059DD5200502DD5 /* String+cleaned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07A8DB2059DD5200502DD5 /* String+cleaned.swift */; };
+		3B07A8FD2059E12200502DD5 /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07A8E82059E12000502DD5 /* NumberFormatter.swift */; };
+		3B07A9032059E12200502DD5 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07A8EE2059E12100502DD5 /* Downloader.swift */; };
+		3B07A9072059E12200502DD5 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07A8F22059E12100502DD5 /* DateFormatter.swift */; };
+		3B07A9082059E12200502DD5 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07A8F32059E12200502DD5 /* Date.swift */; };
+		3B07A90C2059E12200502DD5 /* WebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07A8F72059E12200502DD5 /* WebAPI.swift */; };
 		3B5E17672055F64600682FC5 /* CGFloat+degreeToRad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E17662055F64600682FC5 /* CGFloat+degreeToRad.swift */; };
 		3B7268D3204F1F1A004515F2 /* LocalisedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7268CF204F1F1A004515F2 /* LocalisedString.swift */; };
 		3B7268D4204F1F1A004515F2 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7268D0204F1F1A004515F2 /* Box.swift */; };
@@ -47,6 +52,11 @@
 		3B07A8D72059DCDF00502DD5 /* Strng+NLP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strng+NLP.swift"; sourceTree = "<group>"; };
 		3B07A8D92059DD0A00502DD5 /* String+slugSafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+slugSafe.swift"; sourceTree = "<group>"; };
 		3B07A8DB2059DD5200502DD5 /* String+cleaned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+cleaned.swift"; sourceTree = "<group>"; };
+		3B07A8E82059E12000502DD5 /* NumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
+		3B07A8EE2059E12100502DD5 /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		3B07A8F22059E12100502DD5 /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		3B07A8F32059E12200502DD5 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		3B07A8F72059E12200502DD5 /* WebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebAPI.swift; sourceTree = "<group>"; };
 		3B5E17662055F64600682FC5 /* CGFloat+degreeToRad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+degreeToRad.swift"; sourceTree = "<group>"; };
 		3B7268CF204F1F1A004515F2 /* LocalisedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalisedString.swift; sourceTree = "<group>"; };
 		3B7268D0204F1F1A004515F2 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
@@ -120,13 +130,18 @@
 				3B87BA84204DF31800812BAE /* CGFloat+rightToLeft.swift */,
 				3B87BA7C204DF31700812BAE /* CIImage+multiply.swift */,
 				3B7268D2204F1F1A004515F2 /* CompositionPrecedence.swift */,
+				3B07A8F22059E12100502DD5 /* DateFormatter.swift */,
+				3B07A8F32059E12200502DD5 /* Date.swift */,
 				3B87BA85204DF31800812BAE /* Data+Types.swift */,
 				3B87BA8F204DF31900812BAE /* Date+formatting.swift */,
+				3B07A8EE2059E12100502DD5 /* Downloader.swift */,
 				3B87BA93204DF31A00812BAE /* Encodable+dictionary.swift */,
 				3B7268CF204F1F1A004515F2 /* LocalisedString.swift */,
 				3B87BA86204DF31800812BAE /* Notification+names.swift */,
+				3B07A8E82059E12000502DD5 /* NumberFormatter.swift */,
 				3B87BA8B204DF31900812BAE /* Sequence+callAll.swift */,
 				3B87BA94204DF31A00812BAE /* SKProduct+Price.swift */,
+				3B07A8F72059E12200502DD5 /* WebAPI.swift */,
 				3B87BA78204DF31600812BAE /* UserDefaults.swift */,
 				3B87BB4A204DF92400812BAE /* String */,
 			);
@@ -274,12 +289,16 @@
 				3B87BAA2204DF31B00812BAE /* CIImage+multiply.swift in Sources */,
 				3B07A8D82059DCDF00502DD5 /* Strng+NLP.swift in Sources */,
 				3B7268D6204F1F1A004515F2 /* CompositionPrecedence.swift in Sources */,
+				3B07A9072059E12200502DD5 /* DateFormatter.swift in Sources */,
 				3B87BAAB204DF31B00812BAE /* Data+Types.swift in Sources */,
 				3B87BABB204DF31B00812BAE /* String+wordList.swift in Sources */,
+				3B07A9032059E12200502DD5 /* Downloader.swift in Sources */,
 				3B7268D3204F1F1A004515F2 /* LocalisedString.swift in Sources */,
+				3B07A90C2059E12200502DD5 /* WebAPI.swift in Sources */,
 				3B87BAB5204DF31B00812BAE /* String+localized.swift in Sources */,
 				3B87BAB0204DF31B00812BAE /* Sequence+callAll.swift in Sources */,
 				3B07A8DC2059DD5200502DD5 /* String+cleaned.swift in Sources */,
+				3B07A8FD2059E12200502DD5 /* NumberFormatter.swift in Sources */,
 				3B87BAAC204DF31B00812BAE /* Notification+names.swift in Sources */,
 				3B87BA9D204DF31B00812BAE /* String+range .swift in Sources */,
 				3B87BAA0204DF31B00812BAE /* String+isNilOrEmpty.swift in Sources */,
@@ -287,6 +306,7 @@
 				3B7268D5204F1F1A004515F2 /* Aliases.swift in Sources */,
 				3B87BAB8204DF31B00812BAE /* Encodable+dictionary.swift in Sources */,
 				3B87BAB4204DF31B00812BAE /* Date+formatting.swift in Sources */,
+				3B07A9082059E12200502DD5 /* Date.swift in Sources */,
 				3B87BA9E204DF31B00812BAE /* UserDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
