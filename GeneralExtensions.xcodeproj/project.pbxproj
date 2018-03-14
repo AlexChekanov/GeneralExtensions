@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B07A8D82059DCDF00502DD5 /* Strng+NLP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07A8D72059DCDF00502DD5 /* Strng+NLP.swift */; };
+		3B07A8DA2059DD0A00502DD5 /* String+slugSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07A8D92059DD0A00502DD5 /* String+slugSafe.swift */; };
+		3B07A8DC2059DD5200502DD5 /* String+cleaned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07A8DB2059DD5200502DD5 /* String+cleaned.swift */; };
+		3B5E17672055F64600682FC5 /* CGFloat+degreeToRad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E17662055F64600682FC5 /* CGFloat+degreeToRad.swift */; };
 		3B7268D3204F1F1A004515F2 /* LocalisedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7268CF204F1F1A004515F2 /* LocalisedString.swift */; };
 		3B7268D4204F1F1A004515F2 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7268D0204F1F1A004515F2 /* Box.swift */; };
 		3B7268D5204F1F1A004515F2 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7268D1204F1F1A004515F2 /* Aliases.swift */; };
@@ -23,10 +27,9 @@
 		3B87BAB0204DF31B00812BAE /* Sequence+callAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA8B204DF31900812BAE /* Sequence+callAll.swift */; };
 		3B87BAB4204DF31B00812BAE /* Date+formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA8F204DF31900812BAE /* Date+formatting.swift */; };
 		3B87BAB5204DF31B00812BAE /* String+localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA90204DF31A00812BAE /* String+localized.swift */; };
-		3B87BAB7204DF31B00812BAE /* CALayer+CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA92204DF31A00812BAE /* CALayer+CIImage.swift */; };
 		3B87BAB8204DF31B00812BAE /* Encodable+dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA93204DF31A00812BAE /* Encodable+dictionary.swift */; };
 		3B87BAB9204DF31B00812BAE /* SKProduct+Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA94204DF31A00812BAE /* SKProduct+Price.swift */; };
-		3B87BABA204DF31B00812BAE /* String+maxElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA95204DF31A00812BAE /* String+maxElement.swift */; };
+		3B87BABA204DF31B00812BAE /* String+longest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA95204DF31A00812BAE /* String+longest.swift */; };
 		3B87BABB204DF31B00812BAE /* String+wordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87BA96204DF31A00812BAE /* String+wordList.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B07A8D72059DCDF00502DD5 /* Strng+NLP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strng+NLP.swift"; sourceTree = "<group>"; };
+		3B07A8D92059DD0A00502DD5 /* String+slugSafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+slugSafe.swift"; sourceTree = "<group>"; };
+		3B07A8DB2059DD5200502DD5 /* String+cleaned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+cleaned.swift"; sourceTree = "<group>"; };
+		3B5E17662055F64600682FC5 /* CGFloat+degreeToRad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+degreeToRad.swift"; sourceTree = "<group>"; };
 		3B7268CF204F1F1A004515F2 /* LocalisedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalisedString.swift; sourceTree = "<group>"; };
 		3B7268D0204F1F1A004515F2 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		3B7268D1204F1F1A004515F2 /* Aliases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
@@ -60,10 +67,9 @@
 		3B87BA8B204DF31900812BAE /* Sequence+callAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+callAll.swift"; sourceTree = "<group>"; };
 		3B87BA8F204DF31900812BAE /* Date+formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+formatting.swift"; sourceTree = "<group>"; };
 		3B87BA90204DF31A00812BAE /* String+localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+localized.swift"; sourceTree = "<group>"; };
-		3B87BA92204DF31A00812BAE /* CALayer+CIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+CIImage.swift"; sourceTree = "<group>"; };
 		3B87BA93204DF31A00812BAE /* Encodable+dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+dictionary.swift"; sourceTree = "<group>"; };
 		3B87BA94204DF31A00812BAE /* SKProduct+Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKProduct+Price.swift"; sourceTree = "<group>"; };
-		3B87BA95204DF31A00812BAE /* String+maxElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+maxElement.swift"; sourceTree = "<group>"; };
+		3B87BA95204DF31A00812BAE /* String+longest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+longest.swift"; sourceTree = "<group>"; };
 		3B87BA96204DF31A00812BAE /* String+wordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+wordList.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,22 +113,22 @@
 		3B87BA4A204DF24300812BAE /* GeneralExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				3B87BA4C204DF24300812BAE /* Info.plist */,
 				3B7268D1204F1F1A004515F2 /* Aliases.swift */,
-				3B7268CF204F1F1A004515F2 /* LocalisedString.swift */,
 				3B7268D0204F1F1A004515F2 /* Box.swift */,
+				3B5E17662055F64600682FC5 /* CGFloat+degreeToRad.swift */,
+				3B87BA84204DF31800812BAE /* CGFloat+rightToLeft.swift */,
+				3B87BA7C204DF31700812BAE /* CIImage+multiply.swift */,
 				3B7268D2204F1F1A004515F2 /* CompositionPrecedence.swift */,
 				3B87BA85204DF31800812BAE /* Data+Types.swift */,
-				3B87BA84204DF31800812BAE /* CGFloat+rightToLeft.swift */,
 				3B87BA8F204DF31900812BAE /* Date+formatting.swift */,
 				3B87BA93204DF31A00812BAE /* Encodable+dictionary.swift */,
-				3B87BA92204DF31A00812BAE /* CALayer+CIImage.swift */,
-				3B87BA7C204DF31700812BAE /* CIImage+multiply.swift */,
+				3B7268CF204F1F1A004515F2 /* LocalisedString.swift */,
 				3B87BA86204DF31800812BAE /* Notification+names.swift */,
 				3B87BA8B204DF31900812BAE /* Sequence+callAll.swift */,
 				3B87BA94204DF31A00812BAE /* SKProduct+Price.swift */,
-				3B87BB4A204DF92400812BAE /* String */,
 				3B87BA78204DF31600812BAE /* UserDefaults.swift */,
-				3B87BA4C204DF24300812BAE /* Info.plist */,
+				3B87BB4A204DF92400812BAE /* String */,
 			);
 			path = GeneralExtensions;
 			sourceTree = "<group>";
@@ -141,7 +147,10 @@
 			children = (
 				3B87BA7A204DF31600812BAE /* String+isNilOrEmpty.swift */,
 				3B87BA90204DF31A00812BAE /* String+localized.swift */,
-				3B87BA95204DF31A00812BAE /* String+maxElement.swift */,
+				3B87BA95204DF31A00812BAE /* String+longest.swift */,
+				3B07A8D72059DCDF00502DD5 /* Strng+NLP.swift */,
+				3B07A8D92059DD0A00502DD5 /* String+slugSafe.swift */,
+				3B07A8DB2059DD5200502DD5 /* String+cleaned.swift */,
 				3B87BA77204DF31600812BAE /* String+range .swift */,
 				3B87BA96204DF31A00812BAE /* String+wordList.swift */,
 			);
@@ -257,17 +266,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B87BABA204DF31B00812BAE /* String+maxElement.swift in Sources */,
+				3B87BABA204DF31B00812BAE /* String+longest.swift in Sources */,
+				3B5E17672055F64600682FC5 /* CGFloat+degreeToRad.swift in Sources */,
+				3B07A8DA2059DD0A00502DD5 /* String+slugSafe.swift in Sources */,
 				3B87BAAA204DF31B00812BAE /* CGFloat+rightToLeft.swift in Sources */,
 				3B87BAB9204DF31B00812BAE /* SKProduct+Price.swift in Sources */,
 				3B87BAA2204DF31B00812BAE /* CIImage+multiply.swift in Sources */,
+				3B07A8D82059DCDF00502DD5 /* Strng+NLP.swift in Sources */,
 				3B7268D6204F1F1A004515F2 /* CompositionPrecedence.swift in Sources */,
 				3B87BAAB204DF31B00812BAE /* Data+Types.swift in Sources */,
-				3B87BAB7204DF31B00812BAE /* CALayer+CIImage.swift in Sources */,
 				3B87BABB204DF31B00812BAE /* String+wordList.swift in Sources */,
 				3B7268D3204F1F1A004515F2 /* LocalisedString.swift in Sources */,
 				3B87BAB5204DF31B00812BAE /* String+localized.swift in Sources */,
 				3B87BAB0204DF31B00812BAE /* Sequence+callAll.swift in Sources */,
+				3B07A8DC2059DD5200502DD5 /* String+cleaned.swift in Sources */,
 				3B87BAAC204DF31B00812BAE /* Notification+names.swift in Sources */,
 				3B87BA9D204DF31B00812BAE /* String+range .swift in Sources */,
 				3B87BAA0204DF31B00812BAE /* String+isNilOrEmpty.swift in Sources */,
@@ -423,6 +435,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GeneralExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tipsandtricks.GeneralExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -444,6 +457,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GeneralExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tipsandtricks.GeneralExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
