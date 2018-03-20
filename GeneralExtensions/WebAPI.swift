@@ -172,7 +172,7 @@ open class WebAPI {
                 })
             #else
                 let _ = Timer.scheduledTimer(withTimeInterval: TimeInterval(exactly: canned.timeout) ?? TimeInterval(floatLiteral: 0.0), repeats: false, block: { (timer) in
-                    completion(canned.statusCode, canned.headers, canned.data, canned.error)
+                    completion(canned.statusCode, canned.headers, canned.process, canned.error)
                 })
             #endif
             return

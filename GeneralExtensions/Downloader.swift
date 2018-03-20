@@ -71,12 +71,12 @@ open class Downloader {
                 })
             #else
                 guard error == nil else {
-                    completion(0, data, error)
+                    completion(0, process, error)
                     return
                 }
                 
                 let httpResponse = response as! HTTPURLResponse
-                completion(httpResponse.statusCode, data, error)
+                completion(httpResponse.statusCode, process, error)
             #endif
         }) .resume()
     }
@@ -102,8 +102,8 @@ open class Downloader {
         public func getImageAtURL(_ url: URL, cachePolicy: URLRequest.CachePolicy, completion: @escaping DownloaderImageCompletion) {
             self.getDataAtURL(url, cachePolicy: cachePolicy) { (statusCode, responseData, error) -> Void in
                 var image: UIImage?
-                if responseData != nil {
-                    image = UIImage(data: responseData!)
+                if let responseData = responseData {
+                    image = UIImage(data: responseData)
                 }
                 
                 completion(statusCode, image, error)
